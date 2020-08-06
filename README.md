@@ -2,7 +2,7 @@
 
 ## The Problem
 
-The goal of this analysis is to build a model that will flag students that are at risk of dropping out of High School so that proper resources can be provided for them. As a tool, such a model could be utilized by high school counselors seeking to understand how to best budget their limited resources.
+Every year, over 1.2 million students drop out of high school in the United States alone. That's a student every 26 seconds – or 7,000 a day. About 25% of high school freshmen fail to graduate from high school on time. The goal of this analysis is to build a model that will flag students that are at risk of dropping out of High School so that proper resources can be provided for them. As a tool, such a model could be utilized by high school counselors seeking to understand how to best budget their limited resources.
 
 ![](figures/dropcount.png) 
 
