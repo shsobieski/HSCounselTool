@@ -14,10 +14,10 @@ The data contains over 8000 variables. For the purposes of this analysis I conde
 
 ## Analysis
 
-The model was able to predict 73% of dropouts with a precision of 30%. Although this precision is not ideal, in light of the problem, which seeks to provide services for students in need of additional support a high recall rate is the priority.
+Because recall is so vital in the case of identifying at-risk students (i.e. it's better to over identify than under identify) I chose the model with the highest recall score, which was the logistic regresion model. It was able to predict 73% of dropouts. In the test set 408 students labeled as graduates were identified as at-risk, and 64 at-risk students were missed. Given that 171 of the dropouts were correctly identified this model is still useful in discovering at risk students.
 
-In addition, I modeled each category separately to determine which types of information would be most useful for making judgements in the future. 
+Finally, I modeled each category separately to determine which types of information would be most useful for making judgements in the future, and which areas are not. This will help focus data collection efforts in the future to improve the ability of future models. 
 
 ![](figures/recall.png)
 
-I found that Academic achievement was nearly as predictive as the full model. I reccomend using academic achievement as a metric of success for some of the other categories, which were not as predictive when it comes to student dropouts.
+I found that Academic achievement was nearly as predictive as the full model. I reccomend using academic achievement as a metric of success for future models.
